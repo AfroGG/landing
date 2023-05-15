@@ -1,11 +1,12 @@
 import PepeHead from '../assets/images/PepeHead.png';
+import {TypeAnimation} from 'react-type-animation';
 
 function Social() {
     return (
         <div className="bg-dark pt-24">
             <div className="container mx-auto max-w-screen-lg">
                 <img className='mt-10 mx-auto' src={PepeHead} />
-                
+
                 <div className="flex items-center justify-center">
                     <div className="container max-w-screen-lg mx-auto">
                         <div>
@@ -32,7 +33,15 @@ function Social() {
                         </div>
                     </div>
                 </div>
-                <p className="text-center text-xl tracking-widest">Get ready for a wild ride with AIPepe, the ultimate AI-generated meme coin with frog culture!</p>
+                <p className="text-center text-xl tracking-widest">
+                    <TypeAnimation
+                        sequence={[
+                            "Get ready for a wild ride with AIPepe, the ultimate AI-generated meme coin with frog culture!",
+                            2000,
+                        ]}
+                        speed={1}
+                    />
+                </p>
             </div>
         </div>
     )

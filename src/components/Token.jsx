@@ -9,13 +9,13 @@ function Token() {
                         <p className="text-5xl">999,999,999,999,999</p>
                         <p className="mt-4 text-4xl">//AIPEPE//</p>
                         <p className="text-4xl">TOKENOMICS</p>
-                        <p className="mt-16 pr-8 text-white">The number 999,999,999,999,999 represents a theoretical limit of computational power in the quest for superintelligence and serves as a satirical symbol of the impending AI Singularity, raising ethical considerations in the development of AI systems.</p>
+                        <p className="mt-16 pr-8 text-white leading-8">The number 999,999,999,999,999 represents a theoretical limit of computational power in the quest for superintelligence and serves as a satirical symbol of the impending AI Singularity, raising ethical considerations in the development of AI systems.</p>
                     </div>
                     <div className="col-span-1">
                         <img className='pl-3' src={token} alt="AIPEPE Token" />
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     )
 }
