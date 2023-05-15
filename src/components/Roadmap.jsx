@@ -1,8 +1,8 @@
-import wave from '../assets/images/wave.png';
 import stage1 from '../assets/images/stage1.png';
 import stage2 from '../assets/images/stage2.png';
 import stage3 from '../assets/images/stage3.png';
 import line from '../assets/images/line.png';
+import Wave from './Wave.jsx';
 
 function Roadmap() {
     return (
@@ -14,7 +14,7 @@ function Roadmap() {
                     <div className="stage1">
                         <p className='mt-8 mb-6 text-2xl'>Stage 1</p>
                         <p className='mt-2 text-2xl'>AIPEPE Madness</p>
-                        <img className='mt-8' src={wave} alt="Wave" />
+                        <Wave />
                         <img className='-ml-24 my-16' src={stage1} alt="Stage one" />
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='col-start-3 col-span-3 mt-4 text-white text-left list-disc'>
@@ -24,15 +24,15 @@ function Roadmap() {
                                 <li>Fair launch & token frenzy</li>
                             </ul>
                         </div>
-                        <div className="flex w-full justify-center items-center mt-12 mb-6">                
-                            <img className='mt-8 content-center' src={line} alt="Line" />
+                        <div className="flex w-full justify-center items-center mt-12 mb-6">
+                            <img className='mt-8 content-center animate-pulse' src={line} alt="Line" />
                         </div>
                     </div>
 
                     <div className="stage2">
                         <p className='mt-2 mb-6 text-2xl'>Stage 2</p>
                         <p className='mt-2 text-2xl'>Infect Crypto, Rule Market</p>
-                        <img className='mt-8' src={wave} alt="Wave" />
+                        <Wave />
                         <img className='-mt-48 mb-10' src={stage2} alt="Stage two" />
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='col-start-3 col-span-3 mt-4 text-white text-left list-disc'>
@@ -43,15 +43,15 @@ function Roadmap() {
                                 <li>Storm major CEX with AIPEPE invasion</li>
                             </ul>
                         </div>
-                        <div className="flex w-full justify-center items-center mt-12 mb-6">                
-                            <img className='mt-8 content-center' src={line} alt="Line" />
+                        <div className="flex w-full justify-center items-center mt-12 mb-6">
+                            <img className='mt-8 content-center animate-pulse' src={line} alt="Line" />
                         </div>
                     </div>
-                    
+
                     <div className="stage3">
                         <p className='mt-2 mb-6 text-2xl'>Stage 3</p>
                         <p className='mt-2 text-2xl'>PepeAI's Reckoning & Reconstruction</p>
-                        <img className='mt-8' src={wave} alt="Wave" />
+                        <Wave />
                         <img className='-mt-24 mb-10 mx-auto' src={stage3} alt="Stage three" />
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='col-start-3 col-span-3 mt-4 text-white text-left list-disc ml-20'>
@@ -64,7 +64,7 @@ function Roadmap() {
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
     )
 }

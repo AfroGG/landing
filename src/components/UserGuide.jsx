@@ -1,5 +1,6 @@
 import SyncSwap from '../assets/images/SyncSwap.png';
 import iZUMI from '../assets/images/iZUMI.png';
+import darrow from '../assets/images/darrow.png';
 import arrow from '../assets/images/arrow.png';
 
 function UserGuide() {
@@ -15,26 +16,26 @@ function UserGuide() {
                                 <span className="text-left">Create Wallet</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Get ETH</span>
-                            </div>    
+                            </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Bridge</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Swap</span>
                             </div>
                         </div>
                         <p className='text-sm text-white px-2 mt-4 text-left'>To create a MetaMask wallet, visit MetaMask.io, install the extension, set a password, jot down the seed phrase, confirm it, choose a network, and voila! You're all set to start using your wallet.</p>
-                    </div>    
+                    </div>
 
                     <div className="get mt-32">
                         <div className="grid grid-cols-7 text-lg px-4">
@@ -42,26 +43,26 @@ function UserGuide() {
                                 <span className="text-left opacity-50">Create Wallet</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left">Get ETH</span>
-                            </div>    
+                            </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Bridge</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Swap</span>
                             </div>
                         </div>
                         <p className='text-sm text-white px-2 mt-4 text-left'>To get Ethereum (ETH) in your MetaMask wallet, either purchase ETH directly within MetaMask or transfer ETH from a cryptocurrency exchange or another wallet by copying your MetaMask wallet address and initiating the transfer.</p>
-                    </div>   
+                    </div>
 
                     <div className="bridge mt-32">
                         <div className="grid grid-cols-7 text-lg px-4">
@@ -69,26 +70,26 @@ function UserGuide() {
                                 <span className="text-left opacity-50">Create Wallet</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Get ETH</span>
-                            </div>    
+                            </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left">Bridge</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Swap</span>
                             </div>
                         </div>
                         <p className='text-sm text-white px-2 mt-4 text-left'>To bridge Ethereum (ETH) to the zkSync network, visit https://bridge.zksync.io/, connect your MetaMask wallet, deposit ETH, confirm in MetaMask, and wait for confirmation on both networks.</p>
-                    </div>   
+                    </div>
 
                     <div className="swap mt-32">
                         <div className="grid grid-cols-7 text-lg px-4">
@@ -96,19 +97,19 @@ function UserGuide() {
                                 <span className="text-left opacity-50">Create Wallet</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Get ETH</span>
-                            </div>    
+                            </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left opacity-50">Bridge</span>
                             </div>
                             <div className="col-span-1">
-                                <img src={arrow} className="mt-2 h-4 mx-auto opacity-50"/>
+                                <img src={darrow} className="mt-2 h-4 mx-auto opacity-50"/>
                             </div>
                             <div className="col-span-1">
                                 <span className="text-left">Swap</span>
@@ -140,9 +141,9 @@ function UserGuide() {
                                 </a>
                             </div>
                         </div>
-                    </div>   
-                </div>    
-            </div> 
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
