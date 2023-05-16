@@ -11,9 +11,9 @@ function Info() {
     const onClickInfoThree = () => setShowInfoThree(!showInfoThree)
 
     return (
-        <div className="bg-dark pt-16">
+        <div className="bg-dark lg:pt-16 pt-4">
             <div className="container mx-auto max-w-screen-xl">
-                <div className="grid grid-cols-5 gap-4">
+                <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 lg:text-base text-sm">
                     <div className="col-span-2">
                         <img src={yo} alt="Yo" />
                     </div>
