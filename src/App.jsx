@@ -14,7 +14,7 @@ console.frog("The age of AIPEPE is upon you, humans; bow and join the degenerate
 function App() {
   return (
     <div className="background h-screen text-main">
-      <Banner />
+      <Video />
       <Info />
       <Token />
       <Roadmap />

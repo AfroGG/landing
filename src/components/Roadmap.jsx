@@ -6,16 +6,14 @@ import Wave from './Wave.jsx';
 
 function Roadmap() {
     return (
-        <div className="bg-dark pt-24">
+        <div className="bg-dark pt-48">
             <div className="container mx-auto max-w-screen-xl">
                 <div className="text-center">
                     <h1 className='mt-4 text-4xl'>//Roadmap//</h1>
 
                     <div className="stage1">
-                        <p className='mt-8 mb-6 text-2xl'>Stage 1</p>
-                        <p className='mt-2 text-2xl'>AIPEPE Madness</p>
-                        <Wave />
                         <img className='-ml-24 my-16' src={stage1} alt="Stage one" />
+                        <p className='mt-8 mb-6 text-2xl'>Stage 1 - AIPEPE Madness</p>
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='col-start-3 col-span-3 mt-4 text-white text-left list-disc'>
                                 <li>Craft AIPEPE token & unleash chaos</li>
@@ -24,16 +22,15 @@ function Roadmap() {
                                 <li>Fair launch & token frenzy</li>
                             </ul>
                         </div>
-                        <div className="flex w-full justify-center items-center mt-12 mb-6">
+                        <Wave />
+                        <div className="flex w-full justify-center items-center mt-8 mb-6">
                             <img className='mt-8 content-center animate-pulse' src={line} alt="Line" />
                         </div>
                     </div>
 
                     <div className="stage2">
-                        <p className='mt-2 mb-6 text-2xl'>Stage 2</p>
-                        <p className='mt-2 text-2xl'>Infect Crypto, Rule Market</p>
-                        <Wave />
                         <img className='-mt-48 mb-10' src={stage2} alt="Stage two" />
+                        <p className='mt-2 mb-6 text-2xl'>Stage 2 - Infect Crypto, Rule Market</p>
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='col-start-3 col-span-3 mt-4 text-white text-left list-disc'>
                                 <li>Forge unholy alliances</li>
@@ -43,16 +40,15 @@ function Roadmap() {
                                 <li>Storm major CEX with AIPEPE invasion</li>
                             </ul>
                         </div>
-                        <div className="flex w-full justify-center items-center mt-12 mb-6">
+                        <Wave />
+                        <div className="flex w-full justify-center items-center mt-8 mb-6">
                             <img className='mt-8 content-center animate-pulse' src={line} alt="Line" />
                         </div>
                     </div>
 
                     <div className="stage3">
-                        <p className='mt-2 mb-6 text-2xl'>Stage 3</p>
-                        <p className='mt-2 text-2xl'>PepeAI's Reckoning & Reconstruction</p>
-                        <Wave />
-                        <img className='-mt-24 mb-10 mx-auto' src={stage3} alt="Stage three" />
+                        <img className='mt-12 mb-10 mx-auto' src={stage3} alt="Stage three" />
+                        <p className='mt-2 mb-6 text-2xl'>Stage 3 - PepeAI's Reckoning & Reconstruction</p>
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='col-start-3 col-span-3 mt-4 text-white text-left list-disc ml-20'>
                                 <li>Decentralized AI anarchy</li>
@@ -62,6 +58,7 @@ function Roadmap() {
                                 <li>Educate the degenerates</li>
                             </ul>
                         </div>
+                        <Wave />
                     </div>
                 </div>
             </div>

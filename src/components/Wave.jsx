@@ -5,7 +5,7 @@ import w4 from '../assets/images/w4.png';
 
 function Wave() {
   return (
-      <div className="bg-dark pt-20">
+      <div className="bg-dark pt-10">
         <img className="mx-auto animate-pulse" src={w1} />
         <img className="mx-auto animate-pulse -mt-10" src={w2} />
         <img className="mx-auto animate-pulse -mt-20" src={w3} />
