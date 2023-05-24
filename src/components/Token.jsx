@@ -1,4 +1,5 @@
 import token from '../assets/images/token.png';
+import CountUp from 'react-countup';
 
 function Token() {
     return (
@@ -9,7 +10,13 @@ function Token() {
                         <img className='lg:px-3 px-8' src={token} alt="AIPEPE Token" />
                     </div>
                     <div className="col-span-1 p-6 tracking-wider">
-                        <p className="lg:text-5xl text-2xl">999,999,999,999,999</p>
+                        <p className="lg:text-5xl text-2xl">
+                            <CountUp
+                                duration={5}
+                                start={99999999999999}
+                                end={999999999999999}
+                            />
+                        </p>
                         <p className="mt-4 lg:text-4xl text-2xl">//AIPEPE//</p>
                         <p className="lg:text-4xl text-2xl">TOKENOMICS</p>
                         <p className="text-sm lg:text-base lg:mt-16 mt-6 pr-8 text-white lg:leading-8">The number 999,999,999,999,999 represents a theoretical limit of computational power in the quest for superintelligence and serves as a satirical symbol of the impending AI Singularity, raising ethical considerations in the development of AI systems.</p>

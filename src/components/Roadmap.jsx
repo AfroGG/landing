@@ -1,8 +1,8 @@
-import stage1 from '../assets/images/stage1.png';
-import stage2 from '../assets/images/stage2.png';
 import stage3 from '../assets/images/stage3.png';
 import line from '../assets/images/line.png';
 import Wave from './Wave.jsx';
+import Hack_PEPE from '../assets/videos/Hack_PEPE.mp4';
+import AIPepe_doge from '../assets/videos/AIPepe_doge.mp4';
 
 function Roadmap() {
     return (
@@ -12,7 +12,9 @@ function Roadmap() {
                     <h1 className='mt-4 text-4xl'>//Roadmap//</h1>
 
                     <div className="stage1">
-                        <img className='lg:-ml-24 -ml-4 my-16' src={stage1} alt="Stage one" />
+                        <video autoPlay muted loop id="hack_pepe" className='bg-dark -ml-4 my-16 lg:w-5/6 lg:mx-auto'>
+                            <source src={Hack_PEPE} type="video/mp4" />
+                        </video>
                         <p className='mt-8 mb-6 text-2xl px-6'>Stage 1 - AIPEPE Madness</p>
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='text-sm lg:text-base lg:col-start-3 lg:col-span-3 col-span-6 mt-4 text-white text-center lg:text-left lg:list-disc'>
@@ -29,7 +31,9 @@ function Roadmap() {
                     </div>
 
                     <div className="stage2">
-                        <img className='lg:-mt-48 -mt-10 mb-10 px-4' src={stage2} alt="Stage two" />
+                        <video autoPlay muted loop id="myVideo" className='bg-dark lg:-mt-48 -mt-10 mb-10 px-4 lg:w-5/6 lg:mx-auto'>
+                            <source src={AIPepe_doge} type="video/mp4" />
+                        </video>
                         <p className='mt-2 mb-6 text-2xl px-6'>Stage 2 - Infect Crypto, Rule Market</p>
                         <div className="grid grid-cols-6 gap-4">
                             <ul className='text-sm lg:text-base lg:col-start-3 lg:col-span-3 col-span-6 mt-4 text-white text-center lg:text-left lg:list-disc'>

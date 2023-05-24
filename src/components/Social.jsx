@@ -1,11 +1,13 @@
-import PepeHead from '../assets/images/PepeHead.png';
 import {TypeAnimation} from 'react-type-animation';
+import hit_us_up from '../assets/videos/hit_us_up.mp4';
 
 function Social() {
     return (
         <div className="bg-dark lg:pt-24 pt-12">
             <div className="container mx-auto max-w-screen-lg">
-                <img className='mt-10 mx-auto' src={PepeHead} />
+                <video autoPlay muted loop id="hit_us_up" className='w-56 mt-10 mx-auto'>
+                    <source src={hit_us_up} type="video/mp4" />
+                </video>
 
                 <div className="flex items-center justify-center">
                     <div className="container max-w-screen-lg mx-auto">

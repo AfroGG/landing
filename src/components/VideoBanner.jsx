@@ -2,7 +2,7 @@ import NO347 from '../assets/videos/NO347.mp4';
 import NO348 from '../assets/videos/NO348.mp4';
 import {TypeAnimation} from 'react-type-animation';
 
-function Video() {
+function VideoBanner() {
     return (
         <div className='flex justify-center h-screen'>
             <video autoPlay muted loop id="myVideo" className='object-cover w-full h-full'>
@@ -47,4 +47,4 @@ function Video() {
     )
 }
 
-export default Video;
+export default VideoBanner;
