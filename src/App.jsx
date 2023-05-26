@@ -17,8 +17,8 @@ function App() {
       <VideoBanner />
       <Info />
       <Token />
-      <Roadmap />
       <UserGuide />
+      <Roadmap />
       <Social />
       <Footer />
     </div>

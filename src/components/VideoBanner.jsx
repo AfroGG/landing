@@ -9,9 +9,9 @@ function VideoBanner() {
                 <source src={NO348} type="video/mp4" />
             </video>
             <p className="lg:visible invisible text-2xl absolute px-6 lg:bottom-48 bottom-8 lg:tracking-widest">
-              Meme Pepe <span className="lg:mx-10">+</span>
-              AI-generated <span className="lg:mx-10">+</span>
-              Community <span className="lg:mx-10">=</span>
+              Meme Pepe <span className="lg:ml-4 lg:mr-6">+</span>
+              AI-generated <span className="lg:ml-4 lg:mr-6">+</span>
+              Community <span className="lg:ml-4 lg:mr-6">=</span>
               <span className="text-6xl align-middle">
                   <TypeAnimation
                       sequence={[

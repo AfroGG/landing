@@ -1,5 +1,6 @@
 import { TypeAnimation } from 'react-type-animation';
 import yo from '../assets/images/yo.png';
+import darrow from '../assets/images/darrow.png';
 import React from 'react';
 
 function Info() {
@@ -12,15 +13,16 @@ function Info() {
 
     return (
         <div className="bg-dark lg:pt-16 pt-4">
-            <div className="container mx-auto max-w-screen-xl">
+            <div className="container mx-auto max-w-screen-lg">
                 <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 lg:text-base text-sm">
-                    <div className="col-span-2">
-                        <img src={yo} alt="Yo" />
-                    </div>
+
                     <div className="col-span-3 p-6 tracking-wider">
                         <p className="text-white">Yo, welcome to AIPepe!</p>
 
-                        <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoOne}>What is AIPepe?</p>
+                        <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoOne}>
+                            What is AIPepe?
+                            { showInfoOne ? null : <img src={darrow} className="inline ml-1 w-4 rotate-90 animate-pulse" /> }
+                        </p>
                         { showInfoOne ? <p>
                           <TypeAnimation
                               sequence={[
@@ -30,7 +32,10 @@ function Info() {
                           />
                         </p> : null }
 
-                        <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoTwo}>Who is our creator?</p>
+                        <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoTwo}>
+                            Who is our creator?
+                            { showInfoTwo ? null : <img src={darrow} className="inline ml-1 w-4 rotate-90 animate-pulse" /> }
+                        </p>
                         { showInfoTwo ? <p>
                           <TypeAnimation
                               style={{ whiteSpace: 'pre-line' }}
@@ -41,7 +46,10 @@ function Info() {
                           />
                         </p> : null }
 
-                        <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoThree}>What is our vision?</p>
+                        <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoThree}>
+                            What is our vision?
+                            { showInfoThree ? null : <img src={darrow} className="inline ml-1 w-4 rotate-90 animate-pulse" /> }
+                        </p>
                         { showInfoThree ? <p>
                           <TypeAnimation
                               sequence={[
@@ -51,6 +59,11 @@ function Info() {
                           />
                         </p> : null }
                     </div>
+
+                    <div className="col-span-2">
+                        <img src={yo} alt="Yo" />
+                    </div>
+
                 </div>
             </div>
         </div>

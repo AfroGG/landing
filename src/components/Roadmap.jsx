@@ -1,70 +1,113 @@
-import stage3 from '../assets/images/stage3.png';
-import line from '../assets/images/line.png';
-import Wave from './Wave.jsx';
 import Hack_PEPE from '../assets/videos/Hack_PEPE.mp4';
 import AIPepe_doge from '../assets/videos/AIPepe_doge.mp4';
+import stage_3_bg from '../assets/images/stage_3_bg.png';
 
 function Roadmap() {
     return (
         <div className="bg-dark lg:pt-48 pt-12">
-            <div className="container mx-auto max-w-screen-xl">
-                <div className="text-center">
-                    <h1 className='mt-4 text-4xl'>//Roadmap//</h1>
+            <div className="relative mx-auto max-w-screen-lg z-10">
+                <h1 className='pb-6 lg:text-5xl text-2xl text-center'>//Roadmap//</h1>
 
-                    <div className="stage1">
-                        <video autoPlay muted loop id="hack_pepe" className='bg-dark -ml-4 my-16 lg:w-5/6 lg:mx-auto'>
-                            <source src={Hack_PEPE} type="video/mp4" />
-                        </video>
-                        <p className='mt-8 mb-6 text-2xl px-6'>Stage 1 - AIPEPE Madness</p>
-                        <div className="grid grid-cols-6 gap-4">
-                            <ul className='text-sm lg:text-base lg:col-start-3 lg:col-span-3 col-span-6 mt-4 text-white text-center lg:text-left lg:list-disc'>
-                                <li>Craft AIPEPE token & unleash chaos</li>
-                                <li>Prepare for the March: AI toolings & Pepe patriots</li>
-                                <li>Stir up AIPEPE's degenerate tribe</li>
-                                <li>Fair launch & token frenzy</li>
-                            </ul>
-                        </div>
-                        <Wave />
-                        <div className="flex w-full justify-center items-center mt-8 mb-6">
-                            <img className='lg:mt-8 lg:h-full h-16 content-center animate-pulse' src={line} alt="Line" />
-                        </div>
-                    </div>
-
-                    <div className="stage2">
-                        <video autoPlay muted loop id="myVideo" className='bg-dark lg:-mt-48 -mt-10 mb-10 px-4 lg:w-5/6 lg:mx-auto'>
-                            <source src={AIPepe_doge} type="video/mp4" />
-                        </video>
-                        <p className='mt-2 mb-6 text-2xl px-6'>Stage 2 - Infect Crypto, Rule Market</p>
-                        <div className="grid grid-cols-6 gap-4">
-                            <ul className='text-sm lg:text-base lg:col-start-3 lg:col-span-3 col-span-6 mt-4 text-white text-center lg:text-left lg:list-disc'>
-                                <li>Forge unholy alliances</li>
-                                <li>Invade decentralized exchanges</li>
-                                <li>Spread frog plague in dog coin communities</li>
-                                <li>Unleash marketing pandemonium</li>
-                                <li>Storm major CEX with AIPEPE invasion</li>
-                            </ul>
-                        </div>
-                        <Wave />
-                        <div className="flex w-full justify-center items-center lg:mt-8 mb-6">
-                            <img className='lg:mt-8 lg:h-full h-16 content-center animate-pulse' src={line} alt="Line" />
-                        </div>
-                    </div>
-
-                    <div className="stage3">
-                        <img className='mt-12 mb-10 px-8 mx-auto' src={stage3} alt="Stage three" />
-                        <p className='mt-2 mb-6 text-2xl px-6'>Stage 3 - PepeAI's Reckoning & Reconstruction</p>
-                        <div className="grid grid-cols-6 gap-4">
-                            <ul className='text-sm lg:text-base lg:col-start-3 lg:col-span-3 col-span-6 mt-4 lg:px-20 text-white text-center lg:text-left lg:list-disc'>
-                                <li>Decentralized AI anarchy</li>
-                                <li>PepeAI's chaotic crypto insights</li>
-                                <li>Found the AIPEPE's Madhouse</li>
-                                <li>Champion unhinged crypto</li>
-                                <li>Educate the degenerates</li>
-                            </ul>
-                        </div>
-                        <Wave />
+                <div className="stage1 bg-main w-4/5 mx-auto">
+                    <p className='mt-8 lg:text-2xl px-6 py-3 text-black'>Stage 1 - AIPEPE Madness</p>
+                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-black border-2 border-main">
+                        <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
+                            <li className="mb-4">
+                                <p className="text-lg">Unleashing Chaos:</p>
+                                <p className="text-main">Craft the AIPEPE token, a volatile blend of AI and meme culture, primed to disrupt the current meme coin scene.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">The March Begins:</p>
+                                <p className="text-main">Harness cutting-edge AI tools and rally the Pepe patriots, it's time to assemble the degenerate army.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">Stirring the Tribe:</p>
+                                <p className="text-main">Light up the internet on Discord, Twitter, and Telegram, rallying a wild, loyal community of AIPEPE enthusiasts.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">Fair Launch:</p>
+                                <p className="text-main">Distribute AIPEPE tokens in a wild, yet fair way that stirs up a token frenzy and offers everyone a chance to join the party.</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
+                <div className="border-main w-4/5 mx-auto">
+                    <p className="-mt-10 bg-black h-10">
+                        <p className="ml-4 -mt-10 border-b-2 border-l-2 h-10"></p>
+                    </p>
+                </div>
+                <div className="w-4/5 mx-auto my-20 lg:mb-40">
+                    <video autoPlay muted loop id="hack_pepe" className='bg-dark'>
+                        <source src={Hack_PEPE} type="video/mp4" />
+                    </video>
+                </div>
+
+                <div className="stage2 bg-main w-4/5 mx-auto">
+                    <p className='mt-8 lg:text-2xl px-6 py-3 text-black'>Stage 2 - Infect Crypto, Rule Market</p>
+                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-black border-2 border-main">
+                        <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
+                            <li className="mb-4">
+                                <p className="text-lg">Unholy Alliances:</p>
+                                <p className="text-main">Team up with the most notorious players in the crypto world to plot total market domination.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">DEX Invasion:</p>
+                                <p className="text-main">Spread the AIPEPE token on decentralized exchanges, flooding the market with our chaotic brand.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">Frog Plague:</p>
+                                <p className="text-main">Infect the dog coin communities, injecting a virulent frog plague into their circles, shaking the very foundation of the meme coin scene.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">Major CEX Storm:</p>
+                                <p className="text-main">Break into the world of centralized exchanges, listing AIPEPE tokens, and spreading our meme-fueled madness.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="border-main w-4/5 mx-auto">
+                    <p className="-mt-10 bg-black h-10">
+                        <p className="ml-4 -mt-10 border-b-2 border-l-2 h-10"></p>
+                    </p>
+                </div>
+                <div className="w-4/5 mx-auto mb-20 lg:mb-40">
+                    <video autoPlay muted loop id="hack_pepe" className='bg-dark'>
+                        <source src={AIPepe_doge} type="video/mp4" />
+                    </video>
+                </div>
+
+                <div className="stage3 bg-main w-4/5 mx-auto">
+                    <p className='mt-8 lg:text-2xl px-6 py-3 text-black'>Stage 3 - PepeAI's Reckoning & Reconstruction</p>
+
+                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-black border-2 border-main">
+                        <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
+                            <li className="mb-4">
+                                <p className="text-lg">AI Anarchy:</p>
+                                <p className="text-main">Deploy PepeAI-powered governance, the community will call the shots in our decentralized chaos.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">Chaotic Crypto Insights:</p>
+                                <p className="text-main">Offer AI-driven market analysis and predictions, providing tools for reckless investing.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">Unhinged Crypto Champion:</p>
+                                <p className="text-main">Join forces with industry renegades to completely revolutionize the crypto ecosystem.</p>
+                            </li>
+                            <li className="mb-4">
+                                <p className="text-lg">Degenerate Education:</p>
+                                <p className="text-main">Share the dark arts of AI and blockchain, crafting a wilder, more unpredictable crypto future.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="border-main w-4/5 mx-auto">
+                    <p className="-mt-10 bg-black h-10">
+                        <p className="ml-4 -mt-10 border-b-2 border-l-2 h-10"></p>
+                    </p>
+                </div>
+            </div>
+            <div className="lg:-mt-40 z-0 relative">
+                <img src={stage_3_bg} className="w-full" />
             </div>
         </div>
     )
