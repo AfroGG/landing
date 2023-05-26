@@ -11,6 +11,7 @@ function Info() {
     const [showInfoThree, setShowInfoThree] = React.useState(false)
     const onClickInfoThree = () => setShowInfoThree(!showInfoThree)
 
+
     return (
         <div className="bg-dark lg:pt-16 pt-4">
             <div className="container mx-auto max-w-screen-lg">
@@ -60,7 +61,7 @@ function Info() {
                         </p> : null }
                     </div>
 
-                    <div className="col-span-2">
+                    <div className="col-span-2" data-aos="fade-left">
                         <img src={yo} alt="Yo" />
                     </div>
 

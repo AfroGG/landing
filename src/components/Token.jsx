@@ -1,11 +1,10 @@
-import token from '../assets/images/token.png';
 import CountUp from 'react-countup';
 import tokenomics from '../assets/videos/tokenomics.mp4';
 
 function Token() {
     return (
         <div className="bg-dark lg:pt-32 pt-10">
-            <div className="container mx-auto max-w-screen-lg">
+            <div className="container mx-auto max-w-screen-lg" data-aos="fade-up">
                 <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 text-center">
                     <div className="col-span-5 p-2 tracking-wider">
                         <p className="lg:text-5xl text-2xl">

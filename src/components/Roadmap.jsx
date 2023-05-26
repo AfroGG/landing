@@ -10,7 +10,7 @@ function Roadmap() {
 
                 <div className="stage1 bg-main w-4/5 mx-auto">
                     <p className='mt-8 lg:text-2xl px-6 py-3 text-black'>Stage 1 - AIPEPE Madness</p>
-                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-black border-2 border-main">
+                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-dark border-2 border-main">
                         <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
                             <li className="mb-4">
                                 <p className="text-lg">Unleashing Chaos:</p>
@@ -32,19 +32,19 @@ function Roadmap() {
                     </div>
                 </div>
                 <div className="border-main w-4/5 mx-auto">
-                    <p className="-mt-10 bg-black h-10">
+                    <p className="-mt-10 bg-dark h-10">
                         <p className="ml-4 -mt-10 border-b-2 border-l-2 h-10"></p>
                     </p>
                 </div>
                 <div className="w-4/5 mx-auto my-20 lg:mb-40">
-                    <video autoPlay muted loop id="hack_pepe" className='bg-dark'>
+                    <video autoPlay muted loop id="hack_pepe" className='bg-dark' data-aos="zoom-in-up">
                         <source src={Hack_PEPE} type="video/mp4" />
                     </video>
                 </div>
 
                 <div className="stage2 bg-main w-4/5 mx-auto">
                     <p className='mt-8 lg:text-2xl px-6 py-3 text-black'>Stage 2 - Infect Crypto, Rule Market</p>
-                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-black border-2 border-main">
+                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-dark border-2 border-main">
                         <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
                             <li className="mb-4">
                                 <p className="text-lg">Unholy Alliances:</p>
@@ -66,12 +66,12 @@ function Roadmap() {
                     </div>
                 </div>
                 <div className="border-main w-4/5 mx-auto">
-                    <p className="-mt-10 bg-black h-10">
+                    <p className="-mt-10 bg-dark h-10">
                         <p className="ml-4 -mt-10 border-b-2 border-l-2 h-10"></p>
                     </p>
                 </div>
                 <div className="w-4/5 mx-auto mb-20 lg:mb-40">
-                    <video autoPlay muted loop id="hack_pepe" className='bg-dark'>
+                    <video autoPlay muted loop id="hack_pepe" className='bg-dark' data-aos="zoom-in-up">
                         <source src={AIPepe_doge} type="video/mp4" />
                     </video>
                 </div>
@@ -79,7 +79,7 @@ function Roadmap() {
                 <div className="stage3 bg-main w-4/5 mx-auto">
                     <p className='mt-8 lg:text-2xl px-6 py-3 text-black'>Stage 3 - PepeAI's Reckoning & Reconstruction</p>
 
-                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-black border-2 border-main">
+                    <div className="px-4 ml-4 -mr-8 grid grid-cols-6 gap-4 bg-dark border-2 border-main">
                         <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
                             <li className="mb-4">
                                 <p className="text-lg">AI Anarchy:</p>
@@ -101,7 +101,7 @@ function Roadmap() {
                     </div>
                 </div>
                 <div className="border-main w-4/5 mx-auto">
-                    <p className="-mt-10 bg-black h-10">
+                    <p className="-mt-10 bg-dark h-10">
                         <p className="ml-4 -mt-10 border-b-2 border-l-2 h-10"></p>
                     </p>
                 </div>

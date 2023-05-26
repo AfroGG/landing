@@ -11,6 +11,7 @@ export default {
       'main': '#00F8DA',
       'white': '#FFFFFF',
       'black': '#000000',
+      'dark': '#0B1017',
     },
     extend: {
       fontFamily: {
