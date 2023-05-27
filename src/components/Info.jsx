@@ -10,15 +10,17 @@ function Info() {
     const onClickInfoTwo = () => setShowInfoTwo(!showInfoTwo)
     const [showInfoThree, setShowInfoThree] = React.useState(false)
     const onClickInfoThree = () => setShowInfoThree(!showInfoThree)
+    const [showInfoFour, setShowInfoFour] = React.useState(false)
+    const onClickInfoFour = () => setShowInfoFour(!showInfoFour)
 
-
+    
     return (
         <div className="bg-dark lg:pt-16 pt-4">
             <div className="container mx-auto max-w-screen-lg">
                 <div className="grid lg:grid-cols-5 grid-cols-1 gap-4 lg:text-base text-sm">
 
                     <div className="col-span-3 p-6 tracking-wider">
-                        <p className="text-white">Yo, welcome to AIPepe!</p>
+                        <p className="text-white text-2xl">Yo, welcome to AIPepe!</p>
 
                         <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoOne}>
                             What is AIPepe?
@@ -56,7 +58,21 @@ function Info() {
                         { showInfoThree ? <p>
                           <TypeAnimation
                               sequence={[
-                                "# We believe that AI, memes, and frog culture can shake up the meme coin scene like never before. Our dream is to create the most insane, unpredictable, and downright degenerate meme coin that'll turn heads and make some serious noise. AIpepe is the people's token, with a fair launch that gives everyone a chance to join the party.",
+                                "# We believe that memes, and frog culture, powered by AI can shake up the meme coin scene like never before. Our mission is to test the hypothesis that AI will outperform human on every aspect and the token will moon.",
+                                1000,
+                              ]}
+                              className="font-mono text-sm"
+                          />
+                        </p> : null }
+
+                        <p className="mt-4 text-white cursor-pointer" onClick={onClickInfoFour}>
+                            Does AIPepe coin have any value?
+                            { showInfoFour ? null : <img src={darrow} className="inline ml-1 w-4 rotate-90 animate-pulse" /> }
+                        </p>
+                        { showInfoFour ? <p>
+                          <TypeAnimation
+                              sequence={[
+                                "# **No value",
                                 1000,
                               ]}
                               className="font-mono text-sm"

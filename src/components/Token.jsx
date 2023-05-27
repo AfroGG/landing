@@ -22,7 +22,10 @@ function Token() {
                         </video>
                     </div>
                     <div className="lg:col-span-2 col-span-5">
-                        <p className="lg:-ml-32 lg:px-16 px-4 text-sm lg:text-sm lg:mt-16 mt-6 text-white lg:leading-8 text-left font-mono">The number 999,999,999,999,999 represents a theoretical limit of computational power in the quest for superintelligence and serves as a satirical symbol of the impending AI Singularity, raising ethical considerations in the development of AI systems.</p>
+                        <p className="lg:-ml-32 lg:px-16 px-4 text-sm lg:text-sm lg:mt-16 mt-6 text-white lg:leading-8 text-left font-mono">
+                            The number 999,999,999,999,999 represents a theoretical limit of computational power in the quest for superintelligence and serves as a satirical symbol of the impending AI Singularity, raising ethical considerations in the development of AI systems.<br /><br />
+                            No Tax, No Inflation, 100% community owned <a href="#" className='text-main underline'>Learn More</a>
+                        </p>
                     </div>
                 </div>
             </div>
