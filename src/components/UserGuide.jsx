@@ -27,7 +27,7 @@ function UserGuide() {
         setStepContent(
             <div>
                 <h2 className="lg:text-3xl text-xl">Step1 - Create Wallet</h2>
-                <p className='text-sm text-white mt-4 text-left'>To create a MetaMask wallet, visit MetaMask.io, install the extension, set a password, jot down the seed phrase, confirm it, choose a network, and voila! You're all set to start using your wallet.</p>
+                <p className='text-sm text-white mt-4 text-left font-mono'>To create a MetaMask wallet, visit MetaMask.io, install the extension, set a password, jot down the seed phrase, confirm it, choose a network, and voila! You're all set to start using your wallet.</p>
             </div>
         )
     },[]);
@@ -46,7 +46,7 @@ function UserGuide() {
             setStepContent(
                 <div>
                     <h2 className="lg:text-3xl text-xl">Step1 - Create Wallet</h2>
-                    <p className='text-sm text-white mt-4 text-left'>To create a MetaMask wallet, visit MetaMask.io, install the extension, set a password, jot down the seed phrase, confirm it, choose a network, and voila! You're all set to start using your wallet.</p>
+                    <p className='text-sm text-white mt-4 text-left font-mono'>To create a MetaMask wallet, visit MetaMask.io, install the extension, set a password, jot down the seed phrase, confirm it, choose a network, and voila! You're all set to start using your wallet.</p>
                 </div>
             )
         } else if (id === 'get') {
@@ -55,7 +55,7 @@ function UserGuide() {
             setStepContent(
                 <div>
                     <h2 className="lg:text-3xl text-xl">Step2 - Get ETH</h2>
-                    <p className='text-sm text-white mt-4 text-left'>To get Ethereum (ETH) in your MetaMask wallet, either purchase ETH directly within MetaMask or transfer ETH from a cryptocurrency exchange or another wallet by copying your MetaMask wallet address and initiating the transfer.</p>
+                    <p className='text-sm text-white mt-4 text-left font-mono'>To get Ethereum (ETH) in your MetaMask wallet, either purchase ETH directly within MetaMask or transfer ETH from a cryptocurrency exchange or another wallet by copying your MetaMask wallet address and initiating the transfer.</p>
                 </div>
             )
         } else if (id === 'bridge') {
@@ -64,7 +64,7 @@ function UserGuide() {
             setStepContent(
                 <div>
                     <h2 className="lg:text-3xl text-xl">Step3 - Bridge</h2>
-                    <p className='text-sm text-white mt-4 text-left'>To bridge Ethereum (ETH) to the zkSync network, visit <a className="underline text-main" href="https://bridge.zksync.io/">https://bridge.zksync.io/</a>, connect your MetaMask wallet, deposit ETH, confirm in MetaMask, and wait for confirmation on both networks.</p>
+                    <p className='text-sm text-white mt-4 text-left font-mono'>To bridge Ethereum (ETH) to the zkSync network, visit <a className="underline text-main" href="https://bridge.zksync.io/">https://bridge.zksync.io/</a>, connect your MetaMask wallet, deposit ETH, confirm in MetaMask, and wait for confirmation on both networks.</p>
                 </div>
             )
         } else if (id === 'swap') {
@@ -74,7 +74,7 @@ function UserGuide() {
                 <div className="grid grid-cols-2">
                     <div className="col-span-2">
                         <h2 className="lg:text-3xl text-xl">Step4 - Swap!</h2>
-                        <p className='text-sm text-white mt-4 text-left'>To swap Ethereum (ETH) to AIPEPE tokens, connect your MetaMask wallet, select the tokens to swap, enter the desired amount, confirm the transaction, and follow the prompts to complete the swap.</p>
+                        <p className='text-sm text-white mt-4 text-left font-mono'>To swap Ethereum (ETH) to AIPEPE tokens, connect your MetaMask wallet, select the tokens to swap, enter the desired amount, confirm the transaction, and follow the prompts to complete the swap.</p>
                     </div>
                     <div className="col-span-1 text-white text-sm text-left">
                         <a href="https://syncswap.xyz/" className='flex'>

@@ -17,12 +17,12 @@ function Token() {
                         <p className="mt-4 lg:text-5xl text-xl">// AIPEPE TOKENOMICS //</p>
                     </div>
                     <div className="lg:col-span-3 col-span-5">
-                        <video autoPlay muted loop id="token" className='lg:w-5/6 w-full lg:mt-16 mt-6'>
+                        <video autoPlay muted loop id="token" className='lg:w-5/6 w-full lg:mt-16 mt-6 px-6'>
                             <source src={tokenomics} type="video/mp4" />
                         </video>
                     </div>
                     <div className="lg:col-span-2 col-span-5">
-                        <p className="lg:-ml-36 lg:px-16 px-4 text-sm lg:text-base lg:mt-16 mt-6 text-white lg:leading-8 text-left">The number 999,999,999,999,999 represents a theoretical limit of computational power in the quest for superintelligence and serves as a satirical symbol of the impending AI Singularity, raising ethical considerations in the development of AI systems.</p>
+                        <p className="lg:-ml-32 lg:px-16 px-4 text-sm lg:text-sm lg:mt-16 mt-6 text-white lg:leading-8 text-left font-mono">The number 999,999,999,999,999 represents a theoretical limit of computational power in the quest for superintelligence and serves as a satirical symbol of the impending AI Singularity, raising ethical considerations in the development of AI systems.</p>
                     </div>
                 </div>
             </div>

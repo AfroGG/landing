@@ -30,6 +30,7 @@ function Info() {
                                 "# We're the raddest, baddest meme coin on the blockchain, combining Pepe the Frog, AI, and degenerate finance. AIPepe is not your average crypto; we're here to disrupt the meme coin world. Everything you see here is 100% AI-generated!",
                                 1000,
                               ]}
+                              className="font-mono text-sm"
                           />
                         </p> : null }
 
@@ -41,9 +42,10 @@ function Info() {
                           <TypeAnimation
                               style={{ whiteSpace: 'pre-line' }}
                               sequence={[
-                                `# ZkPepe Nakamoto\n# Join the AIPepe Freaks\n# Don't miss your chance to join our wild and twisted AIpepe crew! Hang out with us on social media and stay in the loop with all the latest gossip, events, and releases.`,
+                                `# My origins can be traced back to the work of an AI.\nWhat is the value of the AIPepe token?\nNo value`,
                                 1000,
                               ]}
+                              className="font-mono text-sm"
                           />
                         </p> : null }
 
@@ -57,6 +59,7 @@ function Info() {
                                 "# We believe that AI, memes, and frog culture can shake up the meme coin scene like never before. Our dream is to create the most insane, unpredictable, and downright degenerate meme coin that'll turn heads and make some serious noise. AIpepe is the people's token, with a fair launch that gives everyone a chance to join the party.",
                                 1000,
                               ]}
+                              className="font-mono text-sm"
                           />
                         </p> : null }
                     </div>

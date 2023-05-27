@@ -14,19 +14,19 @@ function Roadmap() {
                         <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
                             <li className="mb-4">
                                 <p className="text-lg">Unleashing Chaos:</p>
-                                <p className="text-main">Craft the AIPEPE token, a volatile blend of AI and meme culture, primed to disrupt the current meme coin scene.</p>
+                                <p className="text-main font-mono">Craft the AIPEPE token, a volatile blend of AI and meme culture, primed to disrupt the current meme coin scene.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">The March Begins:</p>
-                                <p className="text-main">Harness cutting-edge AI tools and rally the Pepe patriots, it's time to assemble the degenerate army.</p>
+                                <p className="text-main font-mono">Harness cutting-edge AI tools and rally the Pepe patriots, it's time to assemble the degenerate army.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">Stirring the Tribe:</p>
-                                <p className="text-main">Light up the internet on Discord, Twitter, and Telegram, rallying a wild, loyal community of AIPEPE enthusiasts.</p>
+                                <p className="text-main font-mono">Light up the internet on Discord, Twitter, and Telegram, rallying a wild, loyal community of AIPEPE enthusiasts.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">Fair Launch:</p>
-                                <p className="text-main">Distribute AIPEPE tokens in a wild, yet fair way that stirs up a token frenzy and offers everyone a chance to join the party.</p>
+                                <p className="text-main font-mono">Distribute AIPEPE tokens in a wild, yet fair way that stirs up a token frenzy and offers everyone a chance to join the party.</p>
                             </li>
                         </ul>
                     </div>
@@ -48,19 +48,19 @@ function Roadmap() {
                         <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
                             <li className="mb-4">
                                 <p className="text-lg">Unholy Alliances:</p>
-                                <p className="text-main">Team up with the most notorious players in the crypto world to plot total market domination.</p>
+                                <p className="text-main font-mono">Team up with the most notorious players in the crypto world to plot total market domination.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">DEX Invasion:</p>
-                                <p className="text-main">Spread the AIPEPE token on decentralized exchanges, flooding the market with our chaotic brand.</p>
+                                <p className="text-main font-mono">Spread the AIPEPE token on decentralized exchanges, flooding the market with our chaotic brand.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">Frog Plague:</p>
-                                <p className="text-main">Infect the dog coin communities, injecting a virulent frog plague into their circles, shaking the very foundation of the meme coin scene.</p>
+                                <p className="text-main font-mono">Infect the dog coin communities, injecting a virulent frog plague into their circles, shaking the very foundation of the meme coin scene.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">Major CEX Storm:</p>
-                                <p className="text-main">Break into the world of centralized exchanges, listing AIPEPE tokens, and spreading our meme-fueled madness.</p>
+                                <p className="text-main font-mono">Break into the world of centralized exchanges, listing AIPEPE tokens, and spreading our meme-fueled madness.</p>
                             </li>
                         </ul>
                     </div>
@@ -83,19 +83,19 @@ function Roadmap() {
                         <ul className='text-sm lg:text-base col-span-6 mt-4 text-white '>
                             <li className="mb-4">
                                 <p className="text-lg">AI Anarchy:</p>
-                                <p className="text-main">Deploy PepeAI-powered governance, the community will call the shots in our decentralized chaos.</p>
+                                <p className="text-main font-mono">Deploy PepeAI-powered governance, the community will call the shots in our decentralized chaos.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">Chaotic Crypto Insights:</p>
-                                <p className="text-main">Offer AI-driven market analysis and predictions, providing tools for reckless investing.</p>
+                                <p className="text-main font-mono">Offer AI-driven market analysis and predictions, providing tools for reckless investing.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">Unhinged Crypto Champion:</p>
-                                <p className="text-main">Join forces with industry renegades to completely revolutionize the crypto ecosystem.</p>
+                                <p className="text-main font-mono">Join forces with industry renegades to completely revolutionize the crypto ecosystem.</p>
                             </li>
                             <li className="mb-4">
                                 <p className="text-lg">Degenerate Education:</p>
-                                <p className="text-main">Share the dark arts of AI and blockchain, crafting a wilder, more unpredictable crypto future.</p>
+                                <p className="text-main font-mono">Share the dark arts of AI and blockchain, crafting a wilder, more unpredictable crypto future.</p>
                             </li>
                         </ul>
                     </div>
@@ -107,7 +107,7 @@ function Roadmap() {
                 </div>
             </div>
             <div className="lg:-mt-40 z-0 relative">
-                <img src={stage3_bg} className="w-2/3 mx-auto" />
+                <img src={stage3_bg} className="w-full lg:w-2/3 mx-auto" />
             </div>
         </div>
     )

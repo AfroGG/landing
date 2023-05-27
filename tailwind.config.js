@@ -15,7 +15,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        JetBrains: ["JetBrains Mono", "monospace"],
+        Silkscreen: ["Silkscreen", "monospace"],
        },
     },
   },
