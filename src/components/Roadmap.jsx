@@ -107,7 +107,7 @@ function Roadmap() {
                 </div>
             </div>
             <div className="lg:-mt-40 z-0 relative">
-                <img src={stage3_bg} className="w-full" />
+                <img src={stage3_bg} className="w-2/3 mx-auto" />
             </div>
         </div>
     )
