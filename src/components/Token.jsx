@@ -17,7 +17,7 @@ function Token() {
                         <p className="mt-4 lg:text-5xl text-xl">// AIPEPE TOKENOMICS //</p>
                     </div>
                     <div className="lg:col-span-3 col-span-5">
-                        <video autoPlay muted loop id="token" className='lg:w-2/3 w-full lg:mt-16 mt-6'>
+                        <video autoPlay muted loop id="token" className='lg:w-5/6 w-full lg:mt-16 mt-6'>
                             <source src={tokenomics} type="video/mp4" />
                         </video>
                     </div>

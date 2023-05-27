@@ -6,8 +6,14 @@ import stage_1_wallet from '../assets/videos/stage_1_wallet.mp4';
 import stage_2_get_eth from '../assets/videos/stage_2_get_eth.mp4';
 import stage_3_bridge from '../assets/videos/stage_3_bridge.mp4';
 import stage_4_swap from '../assets/videos/stage_4_swap.mp4';
-import step1 from '../assets/images/step1.jpg';
-import step1_active from '../assets/images/step1_active.jpg';
+import step1 from '../assets/images/step1.svg';
+import step1_active from '../assets/images/step1_active.svg';
+import step2 from '../assets/images/step2.svg';
+import step2_active from '../assets/images/step2_active.svg';
+import step3 from '../assets/images/step3.svg';
+import step3_active from '../assets/images/step3_active.svg';
+import step4 from '../assets/images/step4.svg';
+import step4_active from '../assets/images/step4_active.svg';
 
 function UserGuide() {
     const [showStep, setShowStep] = useState('create');
@@ -93,7 +99,7 @@ function UserGuide() {
             <h1 className='mb-16 lg:text-5xl text-2xl text-center'>//USER GUIDE//</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4">
                     <div className="col-span-1" data-aos="fade-right">
-                        <video autoPlay muted loop id="myVideo" className='w-full border-2 border-main' ref={videoRef}>
+                        <video autoPlay muted loop id="myVideo" className='w-full' ref={videoRef}>
                             <source src={stepVideo} type="video/mp4" />
                         </video>
                     </div>
@@ -101,22 +107,22 @@ function UserGuide() {
                         <div className="grid grid-cols-4 text-lg">
                             <div className="col-span-1 mb-6">
                                 <div className="text-left cursor-pointer -mt-10" onClick={handleClick}>
-                                    <img id="create" src={showStep === 'create' ? step1_active : step1} className="w-24" />
+                                    <img id="create" src={showStep === 'create' ? step1_active : step1} className="h-16" />
                                 </div>
                             </div>
                             <div className="col-span-1 mb-6">
                                 <div className="text-left cursor-pointer" onClick={handleClick}>
-                                    <img id="get" src={showStep === 'get' ? step1_active : step1} className="w-24" />
+                                    <img id="get" src={showStep === 'get' ? step2_active : step2} className="h-16" />
                                 </div>
                             </div>
                             <div className="col-span-1 mb-6">
                                 <div className="text-left cursor-pointer -mt-10" onClick={handleClick}>
-                                    <img id="bridge" src={showStep === 'bridge' ? step1_active : step1} className="w-24" />
+                                    <img id="bridge" src={showStep === 'bridge' ? step3_active : step3} className="h-16" />
                                 </div>
                             </div>
                             <div className="col-span-1 mb-6">
                                 <div className="text-left cursor-pointer" onClick={handleClick}>
-                                    <img id="swap" src={showStep === 'swap' ? step1_active : step1} className="w-24" />
+                                    <img id="swap" src={showStep === 'swap' ? step4_active : step4} className="h-16" />
                                 </div>
                             </div>
                         </div>
