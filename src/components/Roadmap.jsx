@@ -1,6 +1,6 @@
 import Hack_PEPE from '../assets/videos/Hack_PEPE.mp4';
 import AIPepe_doge from '../assets/videos/AIPepe_doge.mp4';
-import stage3_bg from '../assets/images/stage3_bg.png';
+import stage3_bg from '../assets/images/stage3_bg.jpg';
 
 function Roadmap() {
     return (
@@ -106,7 +106,7 @@ function Roadmap() {
                     </p>
                 </div>
             </div>
-            <div className="lg:-mt-40 z-0 relative">
+            <div className="lg:-mt-10 z-0 relative">
                 <img src={stage3_bg} className="w-full lg:w-2/3 mx-auto" />
             </div>
         </div>

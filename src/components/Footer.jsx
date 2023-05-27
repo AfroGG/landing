@@ -8,13 +8,13 @@ function Footer() {
                         <p className="text-white opacity-40 text-xs text-center lg:text-left">© 2023 by AIPEPE. All rights reserved!</p>
                     </div>
                     <div className="col-span-1 text-center mt-1 lg:mt-2 lg:text-right">
-                        <a className="text-white opacity-60 text-xs mr-12" href="#" target="_blank" rel="noreferrer">
-                            Whiterpaper
+                        <a className="text-white opacity-60 text-sm mr-12" href="#" target="_blank" rel="noreferrer">
+                            Whitepaper
                         </a>
-                        <a className="text-white opacity-60 text-xs mr-12" href="#" target="_blank" rel="noreferrer">
+                        <a className="text-white opacity-60 text-sm mr-12" href="#" target="_blank" rel="noreferrer">
                             Docs
                         </a>
-                        <a className="text-white opacity-60 text-xs" href="#" target="_blank" rel="noreferrer">
+                        <a className="text-white opacity-60 text-sm" href="#" target="_blank" rel="noreferrer">
                             Terms of Use
                         </a>
                     </div>
