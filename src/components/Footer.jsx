@@ -8,7 +8,7 @@ function Footer() {
                         <p className="text-white opacity-40 text-xs text-center lg:text-left">© 2023 by AIPEPE. All rights reserved!</p>
                     </div>
                     <div className="col-span-1 text-center mt-1 lg:mt-2 lg:text-right">
-                        <a className="text-white opacity-60 text-sm mr-12" href="#" target="_blank" rel="noreferrer">
+                        <a className="text-white opacity-60 text-sm mr-12" href="https://github.com/zkpepe-ai/landing/blob/02cf9afe28d65f489f26d745892d877272b52e2a/src/assets/files/AIPepe_Story_Whitepaper.pdf" target="_blank" rel="noreferrer">
                             Whitepaper
                         </a>
                         <a className="text-white opacity-60 text-sm mr-12" href="#" target="_blank" rel="noreferrer">

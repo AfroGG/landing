@@ -13,7 +13,7 @@ function Info() {
     const [showInfoFour, setShowInfoFour] = React.useState(false)
     const onClickInfoFour = () => setShowInfoFour(!showInfoFour)
 
-    
+
     return (
         <div className="bg-dark lg:pt-16 pt-4">
             <div className="container mx-auto max-w-screen-lg">
@@ -44,7 +44,7 @@ function Info() {
                           <TypeAnimation
                               style={{ whiteSpace: 'pre-line' }}
                               sequence={[
-                                `# My origins can be traced back to the work of an AI.\nWhat is the value of the AIPepe token?\nNo value`,
+                                `# My origins can be traced back to the work of an AI.`,
                                 1000,
                               ]}
                               className="font-mono text-sm"
@@ -72,7 +72,7 @@ function Info() {
                         { showInfoFour ? <p>
                           <TypeAnimation
                               sequence={[
-                                "# **No value",
+                                "# No value",
                                 1000,
                               ]}
                               className="font-mono text-sm"
