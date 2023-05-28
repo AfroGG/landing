@@ -1,7 +1,7 @@
 import SyncSwap from '../assets/images/SyncSwap.png';
 import iZUMI from '../assets/images/iZUMI.png';
 import arrow from '../assets/images/arrow.png';
-import {useEffect, useRef, useState} from 'react';
+import {useEffect, useState} from 'react';
 import stage_1_wallet from '../assets/videos/stage_1_wallet.mp4';
 import stage_2_get_eth from '../assets/videos/stage_2_get_eth.mp4';
 import stage_3_bridge from '../assets/videos/stage_3_bridge.mp4';
@@ -18,9 +18,6 @@ import step4_active from '../assets/images/step4_active.svg';
 function UserGuide() {
     const [showStep, setShowStep] = useState('create');
     const [stepContent, setStepContent] = useState('');
-    const [stepVideo, setStepVideo] = useState(stage_1_wallet);
-
-    const videoRef = useRef();
 
     useEffect(() => {
         setShowStep('create')
@@ -32,16 +29,11 @@ function UserGuide() {
         )
     },[]);
 
-    useEffect(() => {
-        videoRef.current?.load();
-    }, [stepVideo]);
-
     const handleClick = (e) => {
         e.preventDefault();
         const id = e.target.id;
 
         if (id === 'create') {
-            setStepVideo(stage_1_wallet)
             setShowStep('create')
             setStepContent(
                 <div>
@@ -50,7 +42,6 @@ function UserGuide() {
                 </div>
             )
         } else if (id === 'get') {
-            setStepVideo(stage_2_get_eth)
             setShowStep('get')
             setStepContent(
                 <div>
@@ -59,7 +50,6 @@ function UserGuide() {
                 </div>
             )
         } else if (id === 'bridge') {
-            setStepVideo(stage_3_bridge)
             setShowStep('bridge')
             setStepContent(
                 <div>
@@ -68,7 +58,6 @@ function UserGuide() {
                 </div>
             )
         } else if (id === 'swap') {
-            setStepVideo(stage_4_swap)
             setShowStep('swap')
             setStepContent(
                 <div className="grid grid-cols-2">
@@ -99,8 +88,17 @@ function UserGuide() {
             <h1 className='mb-16 lg:text-5xl text-2xl text-center'>//USER GUIDE//</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 px-4">
                     <div className="col-span-1" data-aos="fade-right">
-                        <video autoPlay muted loop id="myVideo" className='w-full' ref={videoRef}>
-                            <source src={stepVideo} type="video/mp4" />
+                        <video autoPlay muted loop id="Step1Video" className={showStep === 'create' ? 'w-full' : 'w-full hidden'}>
+                            <source src={stage_1_wallet} type="video/mp4" />
+                        </video>
+                        <video autoPlay muted loop id="Step2Video" className={showStep === 'get' ? 'w-full' : 'w-full hidden'}>
+                            <source src={stage_2_get_eth} type="video/mp4" />
+                        </video>
+                        <video autoPlay muted loop id="Step3Video" className={showStep === 'bridge' ? 'w-full' : 'w-full hidden'}>
+                            <source src={stage_3_bridge} type="video/mp4" />
+                        </video>
+                        <video autoPlay muted loop id="Step4Video" className={showStep === 'swap' ? 'w-full' : 'w-full hidden'}>
+                            <source src={stage_4_swap} type="video/mp4" />
                         </video>
                     </div>
                     <div className="col-span-1 mt-12 lg:mt-10"data-aos="fade-left">
