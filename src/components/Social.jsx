@@ -37,7 +37,7 @@ function Social() {
                 </div>
                 */}
 
-                <p className="text-center text-xl tracking-widest px-2">
+                <p className="text-center text-xl tracking-widest px-2 mt-12">
                     <TypeAnimation
                         sequence={[
                             "Get ready for a wild ride with AIPepe, the ultimate AI-generated meme coin with frog culture!",
