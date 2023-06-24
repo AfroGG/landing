@@ -8,7 +8,7 @@ function Social() {
                 <video autoPlay muted loop id="hitUsUp" className='w-32 lg:w-56 -mt-10 lg:-mt-20 z-10 relative mx-auto'>
                     <source src={hit_us_up} type="video/mp4" />
                 </video>
-
+                {/*
                 <div className="flex items-center justify-center">
                     <div className="container max-w-screen-lg mx-auto">
                         <div>
@@ -35,6 +35,8 @@ function Social() {
                         </div>
                     </div>
                 </div>
+                */}
+
                 <p className="text-center text-xl tracking-widest px-2">
                     <TypeAnimation
                         sequence={[
