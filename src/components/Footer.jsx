@@ -9,13 +9,10 @@ function Footer() {
                     </div>
                     <div className="col-span-1 text-center mt-1 lg:mt-2 lg:text-right">
                         <a className="text-white opacity-60 text-sm mr-12" href="https://github.com/zkpepe-ai/landing/blob/0e2d80f40e840496e0a915dec8aa81b71f287cef/src/assets/files/AIPepe_Manifesto.pdf" target="_blank" rel="noreferrer">
-                            Whitepaper
+                            Whitepaper Manifesto
                         </a>
-                        <a className="text-white opacity-60 text-sm mr-12" href="https://twitter.com/zkpepe_ai" target="_blank" rel="noreferrer">
+                        <a className="text-white opacity-60 text-sm" href="https://twitter.com/zkpepe_ai" target="_blank" rel="noreferrer">
                             Twitter
-                        </a>
-                        <a className="text-white opacity-60 text-sm" href="#" target="_blank" rel="noreferrer">
-                            Terms of Use
                         </a>
                     </div>
                 </div>

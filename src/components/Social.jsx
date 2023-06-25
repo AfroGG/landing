@@ -5,7 +5,7 @@ function Social() {
     return (
         <div className="bg-dark lg:pt-24 pt-12">
             <div className="container mx-auto max-w-screen-lg">
-                <video autoPlay muted loop id="hitUsUp" className='w-32 lg:w-56 -mt-10 lg:-mt-20 z-10 relative mx-auto'>
+                <video autoPlay muted loop id="hitUsUp" className='w-32 lg:w-56 -mt-10 lg:mt-10 z-10 relative mx-auto'>
                     <source src={hit_us_up} type="video/mp4" />
                 </video>
                 {/*
@@ -36,7 +36,6 @@ function Social() {
                     </div>
                 </div>
                 */}
-
                 <p className="text-center text-xl tracking-widest px-2 mt-12">
                     <TypeAnimation
                         sequence={[
