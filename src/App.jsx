@@ -22,10 +22,12 @@ function App() {
     <div className="background h-screen text-main">
       <VideoBanner />
       <Info />
+      {/* 
       <Token />
       <UserGuide />
       <Roadmap />
       <Social />
+       */}
       <Footer />
     </div>
   )
