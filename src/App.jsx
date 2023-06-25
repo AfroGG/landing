@@ -26,8 +26,8 @@ function App() {
       <Token />
       <UserGuide />
       <Roadmap />
-      <Social />
        */}
+      <Social />
       <Footer />
     </div>
   )
